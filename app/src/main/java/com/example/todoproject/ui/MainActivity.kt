@@ -1,11 +1,12 @@
-package com.example.todoproject
+package com.example.todoproject.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.todoproject.R
 
-class TodoListActivity : AppCompatActivity() {
+class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_todo_list)
+        setContentView(R.layout.activity_main)
     }
 }
